@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "N-DESIGN",
+    "slug": "n-design",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTabletMode": true,
+      "bundleIdentifier": "com.ndesign.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#8b5e34"
+      },
+      "package": "com.ndesign.app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "react-native-vector-icons",
+        {
+          "fonts": [
+            "Feather.ttf"
+          ]
+        }
+      ]
+    ]
+  }
+}
